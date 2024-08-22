@@ -5,6 +5,7 @@ craftos
 /packages
 x86
 x64
+ARM
 ARM64
 CraftOS-PC*.app
 /autoscan.log
