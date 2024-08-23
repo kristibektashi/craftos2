@@ -3,7 +3,7 @@ craftos
 /.vs
 /Debug
 /packages
-build/
+bin/
 CraftOS-PC*.app
 /autoscan.log
 /Makefile - Copy
