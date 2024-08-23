@@ -375,7 +375,7 @@
     <VcpkgAdditionalInstallOptions>--allow-unsupported</VcpkgAdditionalInstallOptions>
   </PropertyGroup>
   <PropertyGroup Label="Vcpkg">
-    <VcpkgManifestInstall>true</VcpkgManifestInstall>
+    <VcpkgManifestInstall>false</VcpkgManifestInstall>
     <VcpkgEnableManifest>true</VcpkgEnableManifest>
   </PropertyGroup>
   <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -455,7 +455,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStandalone|Win32'">
     <ClCompile>
-      <PreprocessorDefinitions>WIN32;NO_CLI;PRINT_TYPE=1;CURL_STATICLIB;WIN32;PRINT_TYPE=1;CURL_STATICLIB;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;STANDALONE_ROM;NO_CLI;PRINT_TYPE=1;CURL_STATICLIB;WIN32;PRINT_TYPE=1;CURL_STATICLIB;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level1</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
