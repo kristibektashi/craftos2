@@ -4,6 +4,9 @@ craftos
 /Debug
 /packages
 bin/
+obj/
+examples/bin
+examples/obj
 CraftOS-PC*.app
 /autoscan.log
 /Makefile - Copy
