@@ -526,7 +526,7 @@
       <Profile>true</Profile>
     </Link>
     <ClCompile>
-      <PreprocessorDefinitions>WIN32;_WIN64;_AMD64_;HAVE_STRERROR_S;__STDC_LIB_EXT1__;_DEBUG</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WIN64;_AMD64_;HAVE_STRERROR_S;__STDC_LIB_EXT1__;_DEBUG;$(CRASHREPORT_API_KEY)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)api;$(SolutionDir)craftos2-lua\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <TreatSpecificWarningsAsErrors>4013</TreatSpecificWarningsAsErrors>
@@ -556,7 +556,7 @@
       <Profile>true</Profile>
     </Link>
     <ClCompile>
-      <PreprocessorDefinitions>WIN32;_WIN64;_ARM64_;HAVE_STRERROR_S;_DEBUG;CRASHREPORT_API_KEY</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WIN64;_ARM64_;HAVE_STRERROR_S;_DEBUG;$(CRASHREPORT_API_KEY)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)api;$(SolutionDir)craftos2-lua\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <TreatSpecificWarningsAsErrors>4013</TreatSpecificWarningsAsErrors>
@@ -586,7 +586,7 @@
       <Profile>true</Profile>
     </Link>
     <ClCompile>
-      <PreprocessorDefinitions>WIN32;_ARM_;HAVE_STRERROR_S;_DEBUG;CRASHREPORT_API_KEY</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_ARM_;HAVE_STRERROR_S;_DEBUG;$(CRASHREPORT_API_KEY)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)api;$(SolutionDir)craftos2-lua\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <TreatSpecificWarningsAsErrors>4013</TreatSpecificWarningsAsErrors>
@@ -646,7 +646,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
     </Link>
     <ClCompile>
-      <PreprocessorDefinitions>WIN32;_WIN64;_ARM64_;WINDOWS_SUBSYSTEM;HAVE_STRERROR_S;CRASHREPORT_API_KEY</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WIN64;_ARM64_;WINDOWS_SUBSYSTEM;HAVE_STRERROR_S;$(CRASHREPORT_API_KEY)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)api;$(SolutionDir)craftos2-lua\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <Optimization>MaxSpeed</Optimization>
@@ -675,7 +675,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
     </Link>
     <ClCompile>
-      <PreprocessorDefinitions>WIN32;_ARM_;WINDOWS_SUBSYSTEM;HAVE_STRERROR_S;CRASHREPORT_API_KEY</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_ARM_;WINDOWS_SUBSYSTEM;HAVE_STRERROR_S;$(CRASHREPORT_API_KEY)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)api;$(SolutionDir)craftos2-lua\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <Optimization>MaxSpeed</Optimization>
@@ -704,7 +704,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
     </Link>
     <ClCompile>
-      <PreprocessorDefinitions>WIN32;STANDALONE_ROM;_WIN64;_AMD64_;HAVE_STRERROR_S;WINDOWS_SUBSYSTEM;CRASHREPORT_API_KEY</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;STANDALONE_ROM;_WIN64;_AMD64_;HAVE_STRERROR_S;WINDOWS_SUBSYSTEM;$(CRASHREPORT_API_KEY)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)api;$(SolutionDir)craftos2-lua\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <Optimization>MaxSpeed</Optimization>
@@ -733,7 +733,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
     </Link>
     <ClCompile>
-      <PreprocessorDefinitions>WIN32;STANDALONE_ROM;_WIN64;_ARM64_;HAVE_STRERROR_S;WINDOWS_SUBSYSTEM;CRASHREPORT_API_KEY</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;STANDALONE_ROM;_WIN64;_ARM64_;HAVE_STRERROR_S;WINDOWS_SUBSYSTEM;$(CRASHREPORT_API_KEY)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)api;$(SolutionDir)craftos2-lua\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <Optimization>MaxSpeed</Optimization>
@@ -762,7 +762,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
     </Link>
     <ClCompile>
-      <PreprocessorDefinitions>WIN32;STANDALONE_ROM;_ARM_;HAVE_STRERROR_S;WINDOWS_SUBSYSTEM;CRASHREPORT_API_KEY</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;STANDALONE_ROM;_ARM_;HAVE_STRERROR_S;WINDOWS_SUBSYSTEM;$(CRASHREPORT_API_KEY)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)api;$(SolutionDir)craftos2-lua\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <Optimization>MaxSpeed</Optimization>
@@ -820,7 +820,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
     </Link>
     <ClCompile>
-      <PreprocessorDefinitions>WIN32;_WIN64;_ARM64_;HAVE_STRERROR_S;CRASHREPORT_API_KEY</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WIN64;_ARM64_;HAVE_STRERROR_S;$(CRASHREPORT_API_KEY)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)api;$(SolutionDir)craftos2-lua\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <Optimization>MaxSpeed</Optimization>
@@ -849,7 +849,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
     </Link>
     <ClCompile>
-      <PreprocessorDefinitions>WIN32;_ARM_;HAVE_STRERROR_S;CRASHREPORT_API_KEY</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_ARM_;HAVE_STRERROR_S;$(CRASHREPORT_API_KEY)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)api;$(SolutionDir)craftos2-lua\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <Optimization>MaxSpeed</Optimization>
