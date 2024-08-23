@@ -205,7 +205,6 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LinkIncremental>false</LinkIncremental>
     <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     <Linkage-dirent>static</Linkage-dirent>
     <TargetName>CraftOS-PC</TargetName>
@@ -237,22 +236,21 @@
     <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     <Linkage-dirent>static</Linkage-dirent>
     <CodeAnalysisRuleSet>resources\analysis.ruleset</CodeAnalysisRuleSet>
-    <LinkIncremental>false</LinkIncremental>
     <TargetName>CraftOS-PC</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     <Linkage-dirent>static</Linkage-dirent>
     <CodeAnalysisRuleSet>resources\analysis.ruleset</CodeAnalysisRuleSet>
-    <LinkIncremental>false</LinkIncremental>
     <TargetName>CraftOS-PC</TargetName>
+    <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     <Linkage-dirent>static</Linkage-dirent>
     <CodeAnalysisRuleSet>resources\analysis.ruleset</CodeAnalysisRuleSet>
-    <LinkIncremental>false</LinkIncremental>
     <TargetName>CraftOS-PC</TargetName>
+    <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
@@ -388,7 +386,8 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <PostBuildEvent>
-      <Command>copy craftos2-lua\src\lua52d.dll x86\Debug\lua52d.dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -418,7 +417,8 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <PostBuildEvent>
-      <Command>copy craftos2-lua\src\lua52.dll x86\Release\lua52.dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStandalone|Win32'">
@@ -448,7 +448,8 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <PostBuildEvent>
-      <Command>copy craftos2-lua\src\lua52.dll x86\ReleaseStandalone\lua52.dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseC|Win32'">
@@ -478,7 +479,8 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <PostBuildEvent>
-      <Command>copy craftos2-lua\src\lua52.dll x86\ReleaseC\lua52.dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -508,7 +510,8 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <PostBuildEvent>
-      <Command>copy craftos2-lua\src\lua52d.dll x64\Debug\lua52d.dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
@@ -538,7 +541,8 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <PostBuildEvent>
-      <Command>copy craftos2-lua\src\lua52d.dll ARM64\Debug\lua52d.dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
@@ -568,7 +572,8 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <PostBuildEvent>
-      <Command>copy craftos2-lua\src\lua52d.dll ARM\Debug\lua52d.dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -595,7 +600,8 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <PostBuildEvent>
-      <Command>copy craftos2-lua\src\lua52.dll x64\Release\lua52.dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
@@ -622,7 +628,8 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <PostBuildEvent>
-      <Command>copy craftos2-lua\src\lua52.dll ARM64\Release\lua52.dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
@@ -649,7 +656,8 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <PostBuildEvent>
-      <Command>copy craftos2-lua\src\lua52.dll ARM\Release\lua52.dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStandalone|x64'">
@@ -676,7 +684,8 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <PostBuildEvent>
-      <Command>copy craftos2-lua\src\lua52.dll x64\ReleaseStandalone\lua52.dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStandalone|ARM64'">
@@ -703,7 +712,8 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <PostBuildEvent>
-      <Command>copy craftos2-lua\src\lua52.dll ARM64\ReleaseStandalone\lua52.dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStandalone|ARM'">
@@ -730,7 +740,8 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <PostBuildEvent>
-      <Command>copy craftos2-lua\src\lua52.dll ARM\ReleaseStandalone\lua52.dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseC|x64'">
@@ -757,7 +768,8 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <PostBuildEvent>
-      <Command>copy craftos2-lua\src\lua52.dll x64\ReleaseC\lua52.dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseC|ARM64'">
@@ -784,7 +796,8 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <PostBuildEvent>
-      <Command>copy craftos2-lua\src\lua52.dll ARM64\ReleaseC\lua52.dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseC|ARM'">
@@ -811,7 +824,8 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <PostBuildEvent>
-      <Command>copy craftos2-lua\src\lua52.dll ARM\ReleaseC\lua52.dll</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
