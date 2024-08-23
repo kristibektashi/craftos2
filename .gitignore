@@ -3,6 +3,10 @@ craftos
 /.vs
 /Debug
 /packages
+x86
+x64
+ARM
+ARM64
 bin/
 obj/
 examples/bin
